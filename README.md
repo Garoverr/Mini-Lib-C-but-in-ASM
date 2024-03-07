@@ -20,7 +20,7 @@ There was 12 mandatory funcs to do :
 <details>
 <summary>strcmp ?</summary>
 <br>
-    • int strcmp(const char *s1, const char *s2);
+        • int strcmp(const char *s1, const char *s2);
 <br>
 The  strcmp()  function compares the two strings s1 and s2.
 strcmp() returns an integer indicating the result of the comparison, as
@@ -36,26 +36,29 @@ strcmp() returns an integer indicating the result of the comparison, as
 <details>
 <summary>strncmp ?</summary>
 <br>
-    • int strncmp(const char *s1, const char *s2, size_t n);
+        • int strncmp(const char *s1, const char *s2, size_t n);
 <br>
 The `strncmp()` function compares the first `n` characters of the two strings `s1` and `s2`.
-`strncmp()` returns an integer indicating the result of the comparison, as follows:
-    • 0, if the first n characters of s1 and s2 are equal;
-    • a negative value if the first differing character in s1 is less than the corresponding character in s2;
-    • a positive value if the first differing character in s1 is greater than the corresponding character in s2.
+`strncmp()` returns an integer indicating the result of the comparison, as 
+        follows:
+        
+        • 0, if the first n characters of s1 and s2 are equal;
+        • a negative value if the first differing character in s1 is less than the corresponding character in s2;
+        • a positive value if the first differing character in s1 is greater than the corresponding character in s2.
 </details>
 
 
 <details>
 <summary>strcasecmp ?</summary>
 <br>
-    • int strcasecmp(const char *s1, const char *s2);
+        • int strcasecmp(const char *s1, const char *s2);
 <br>
 The `strcasecmp()` function compares the two strings `s1` and `s2` ignoring case.
-`strcasecmp()` returns an integer indicating the result of the comparison, as follows:
-    • 0, if the s1 and s2 are equal (case-insensitive);
-    • a negative value if s1 is less than s2 (case-insensitive);
-    • a positive value if s1 is greater than s2 (case-insensitive).
+`strcasecmp()` returns an integer indicating the result of the comparison, as 
+        follows:
+        • 0, if the s1 and s2 are equal (case-insensitive);
+        • a negative value if s1 is less than s2 (case-insensitive);
+        • a positive value if s1 is greater than s2 (case-insensitive).
 </details>
 
 
