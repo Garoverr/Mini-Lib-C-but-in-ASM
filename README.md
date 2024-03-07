@@ -1,6 +1,6 @@
 # Mini Lib C but in ASM
 
-## Description:
+## Project Description:
 
 Write some LibC functions in asm (NASM).
 There was 12 mandatory funcs to do :
@@ -16,6 +16,9 @@ There was 12 mandatory funcs to do :
 - memcpy
 - memset
 - memmove
+
+
+## Functions Description:
 
 <details>
 <summary>strcmp ?</summary>
