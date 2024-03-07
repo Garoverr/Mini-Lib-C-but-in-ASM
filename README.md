@@ -47,7 +47,7 @@ The `strncmp()` function compares the first `n` characters of the two strings `s
 <details>
 <summary>strcasecmp ?</summary>
 <br>
-```bash
+```
     int strcasecmp(const char *s1, const char *s2);
 ```
 <br>
