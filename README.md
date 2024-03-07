@@ -20,6 +20,7 @@ There was 12 mandatory funcs to do :
 <details>
 <summary>strcmp ?</summary>
 <br>
+
 _______• int strcmp(const char *s1, const char *s2);_______
 <br>
 The  strcmp()  function compares the two strings s1 and s2.
@@ -36,6 +37,7 @@ strcmp() returns an integer indicating the result of the comparison, as
 <details>
 <summary>strncmp ?</summary>
 <br>
+
 _______• int strncmp(const char *s1, const char *s2, size_t n);_______
 <br>
 The `strncmp()` function compares the first `n` characters of the two strings `s1` and `s2`.
@@ -51,6 +53,7 @@ The `strncmp()` function compares the first `n` characters of the two strings `s
 <details>
 <summary>strcasecmp ?</summary>
 <br>
+
 _______• int strcasecmp(const char *s1, const char *s2);_______
 <br>
 The `strcasecmp()` function compares the two strings `s1` and `s2` ignoring case.
@@ -66,6 +69,7 @@ The `strcasecmp()` function compares the two strings `s1` and `s2` ignoring case
 <details>
 <summary>strpbrk ?</summary>
 <br>
+
 _______• char *strpbrk(const char *s1, const char *s2);_______
 <br>
 The `strpbrk()` function locates the first occurrence in the string `s1` of any character from the string `s2`.
@@ -77,6 +81,7 @@ The `strpbrk()` function locates the first occurrence in the string `s1` of any 
 <details>
 <summary>strcspn ?</summary>
 <br>
+
 _______• size_t strcspn(const char *s1, const char *s2);_______
 <br>
 The `strcspn()` function calculates the length of the initial segment of the string `s1` that consists of characters not in the string `s2`.
@@ -87,6 +92,7 @@ The `strcspn()` function calculates the length of the initial segment of the str
 <details>
 <summary>strchr ?</summary>
 <br>
+
 _______• char *strchr(const char *s, int c);_______
 <br>
 The strchr() function locates the first occurrence of the specified character (c) in the string pointed to by s.
@@ -97,6 +103,7 @@ strchr() returns a pointer to the located character, or NULL if the character is
 <details>
 <summary>strrchr ?</summary>
 <br>
+
 _______• char *strrchr(const char *s, int c);_______
 <br>
 The strrchr() function locates the last occurrence of the specified character (c) in the string pointed to by s.
@@ -107,6 +114,7 @@ strrchr() returns a pointer to the located character, or NULL if the character i
 <details>
 <summary>strstr ?</summary>
 <br>
+
 _______• char *strstr(const char *haystack, const char *needle);_______
 <br>
 The strstr() function finds the first occurrence of the substring needle in the string haystack.
@@ -117,6 +125,7 @@ strstr() returns a pointer to the located substring, or NULL if the substring is
 <details>
 <summary>strlen ?</summary>
 <br>
+
 _______• size_t strlen(const char *s);_______
 <br>
 The strlen() function calculates the length of the string pointed to by s, excluding the terminating null byte ('\0').
@@ -145,6 +154,7 @@ The parameters are as follows:
 <details>
 <summary>memset ?</summary>
 <br>
+
 _______• void *memset(void *s, int c, size_t n);_______
 <br>
 The memset() function fills the first n bytes of the memory area pointed to by s with the constant byte c.
@@ -160,6 +170,7 @@ The parameters are as follows:
 <details>
 <summary>memmove ?</summary>
 <br>
+
 _______• void *memmove(void *dest, const void *src, size_t n);_______
 <br>
 The memmove() function copies n bytes from the source memory area (src) to the destination memory area (dest). It handles overlapping memory regions correctly, ensuring that the data is copied accurately regardless of the potential overlap.
