@@ -175,15 +175,28 @@ Unlike memcpy, memmove is safe to use when the source and destination memory are
 
 ## {E} Results:
 
+<br>
 ![STRCMP](https://progress-bar.dev/100/?title=strcmp&color=0F2300)
+<br>
 ![STRNCMP](https://progress-bar.dev/90/?title=strncmp&color=0F2300)
+<br>
 ![STRCASECMP](https://progress-bar.dev/100/?title=strcasecmp&color=0F2300)
+<br>
 ![STRPBRK](https://progress-bar.dev/100/?title=strpbrk&color=0F2300)
+<br>
 ![STRCSPN](https://progress-bar.dev/100/?title=strcspn&color=0F2300)
+<br>
 ![STRCHR](https://progress-bar.dev/100/?title=strchr&color=0F2300)
+<br>
 ![STRRCHR](https://progress-bar.dev/100/?title=strrchr&color=0F2300)
+<br>
 ![STRSTR](https://progress-bar.dev/100/?title=strstr&color=0F2300)
+<br>
 ![STRLEN](https://progress-bar.dev/100/?title=strlen&color=0F2300)
+<br>
 ![MEMCPY](https://progress-bar.dev/100/?title=memcpy&color=0F2300)
+<br>
 ![MEMSET](https://progress-bar.dev/100/?title=memset&color=0F2300)
+<br>
 ![MEMMOVE](https://progress-bar.dev/0/?title=memmove&color=000000)
+<br>
