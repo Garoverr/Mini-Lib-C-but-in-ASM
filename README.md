@@ -18,7 +18,7 @@ There was 12 mandatory funcs to do :
 - memmove
 
 
-## Functions Description:
+## Functions Description (C):
 
 <details>
 <summary>strcmp ?</summary>
