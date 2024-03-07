@@ -47,7 +47,9 @@ The `strncmp()` function compares the first `n` characters of the two strings `s
 <details>
 <summary>strcasecmp ?</summary>
 <br>
-int strcasecmp(const char *s1, const char *s2);
+```bash
+    int strcasecmp(const char *s1, const char *s2);
+```
 <br>
 The `strcasecmp()` function compares the two strings `s1` and `s2` ignoring case.
 `strcasecmp()` returns an integer indicating the result of the comparison, as follows:
@@ -77,9 +79,9 @@ The `strcspn()` function calculates the length of the initial segment of the str
 
 ## {E} Results:
 
-![STRCMP](https://progress-bar.dev/100/?title=strcmp&color=4CAF50)
-![STRNCMP](https://progress-bar.dev/90/?title=strncmp&color=4CAF50)
-![STRCASECMP](https://progress-bar.dev/100/?title=strcasecmp&color=4CAF50)
+![STRCMP](https://progress-bar.dev/100/?title=strcmp&color=4CAF00)
+![STRNCMP](https://progress-bar.dev/90/?title=strncmp&color=4CBF50)
+![STRCASECMP](https://progress-bar.dev/100/?title=strcasecmp&color=4CA50)
 ![STRPBRK](https://progress-bar.dev/100/?title=strpbrk&color=4CAF50)
 ![STRCSPN](https://progress-bar.dev/100/?title=strcspn&color=4CAF50)
 ![STRCHR](https://progress-bar.dev/100/?title=strchr&color=4CAF50)
