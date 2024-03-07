@@ -56,6 +56,7 @@ The `strncmp()` function compares the first `n` characters of the two strings `s
 The `strcasecmp()` function compares the two strings `s1` and `s2` ignoring case.
 `strcasecmp()` returns an integer indicating the result of the comparison, as 
         follows:
+
         • 0, if the s1 and s2 are equal (case-insensitive);
         • a negative value if s1 is less than s2 (case-insensitive);
         • a positive value if s1 is greater than s2 (case-insensitive).
