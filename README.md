@@ -20,7 +20,7 @@ There was 12 mandatory funcs to do :
 <details>
 <summary>strcmp ?</summary>
 <br>
-int strcmp(const char *s1, const char *s2);
+    • int strcmp(const char *s1, const char *s2);
 <br>
 The  strcmp()  function compares the two strings s1 and s2.
 strcmp() returns an integer indicating the result of the comparison, as
@@ -31,10 +31,12 @@ strcmp() returns an integer indicating the result of the comparison, as
        • a positive value if s1 is greater than s2.
 </details>
 
+
+
 <details>
 <summary>strncmp ?</summary>
 <br>
-int strncmp(const char *s1, const char *s2, size_t n);
+    • int strncmp(const char *s1, const char *s2, size_t n);
 <br>
 The `strncmp()` function compares the first `n` characters of the two strings `s1` and `s2`.
 `strncmp()` returns an integer indicating the result of the comparison, as follows:
@@ -47,9 +49,7 @@ The `strncmp()` function compares the first `n` characters of the two strings `s
 <details>
 <summary>strcasecmp ?</summary>
 <br>
-```
-    int strcasecmp(const char *s1, const char *s2);
-```
+    • int strcasecmp(const char *s1, const char *s2);
 <br>
 The `strcasecmp()` function compares the two strings `s1` and `s2` ignoring case.
 `strcasecmp()` returns an integer indicating the result of the comparison, as follows:
@@ -62,28 +62,72 @@ The `strcasecmp()` function compares the two strings `s1` and `s2` ignoring case
 <details>
 <summary>strpbrk ?</summary>
 <br>
-char *strpbrk(const char *s1, const char *s2);
+    • char *strpbrk(const char *s1, const char *s2);
 <br>
 The `strpbrk()` function locates the first occurrence in the string `s1` of any character from the string `s2`.
 `strpbrk()` returns a pointer to the location of the first matching character or a null pointer if no match is found.
 </details>
 
+
+
 <details>
 <summary>strcspn ?</summary>
 <br>
-size_t strcspn(const char *s1, const char *s2);
+    • size_t strcspn(const char *s1, const char *s2);
 <br>
 The `strcspn()` function calculates the length of the initial segment of the string `s1` that consists of characters not in the string `s2`.
 `strcspn()` returns the number of characters in the initial segment until the first occurrence of any character from `s2`.
 </details>
 
+
+<details>
+<summary>strchr ?</summary>
+<br>
+    • char *strchr(const char *s, int c);
+<br>
+The strchr() function locates the first occurrence of the specified character (c) in the string pointed to by s.
+strchr() returns a pointer to the located character, or NULL if the character is not found in the string.
+</details>
+
+
+<details>
+<summary>strrchr ?</summary>
+<br>
+    • char *strrchr(const char *s, int c);
+<br>
+The strrchr() function locates the last occurrence of the specified character (c) in the string pointed to by s.
+strrchr() returns a pointer to the located character, or NULL if the character is not found in the string.
+</details>
+
+
+<details>
+<summary>strstr ?</summary>
+<br>
+    • char *strstr(const char *haystack, const char *needle);
+<br>
+The strstr() function finds the first occurrence of the substring needle in the string haystack.
+strstr() returns a pointer to the located substring, or NULL if the substring is not found in the string.
+</details>
+
+
+<details>
+<summary>strlen ?</summary>
+<br>
+    • size_t strlen(const char *s);
+<br>
+The strlen() function calculates the length of the string pointed to by s, excluding the terminating null byte ('\0').
+strlen() returns the number of characters in the string.
+</details>
+
+
+
 ## {E} Results:
 
 ![STRCMP](https://progress-bar.dev/100/?title=strcmp&color=4CAF00)
-![STRNCMP](https://progress-bar.dev/90/?title=strncmp&color=4CBF50)
+![STRNCMP](https://progress-bar.dev/90/?title=strncmp&color=4CAC50)
 ![STRCASECMP](https://progress-bar.dev/100/?title=strcasecmp&color=4CA50)
-![STRPBRK](https://progress-bar.dev/100/?title=strpbrk&color=4CAF50)
-![STRCSPN](https://progress-bar.dev/100/?title=strcspn&color=4CAF50)
+![STRPBRK](https://progress-bar.dev/100/?title=strpbrk&color=4CAF80)
+![STRCSPN](https://progress-bar.dev/100/?title=strcspn&color=5CAF50)
 ![STRCHR](https://progress-bar.dev/100/?title=strchr&color=4CAF50)
 ![STRRCHR](https://progress-bar.dev/100/?title=strrchr&color=4CAF50)
 ![STRSTR](https://progress-bar.dev/100/?title=strstr&color=4CAF50)
