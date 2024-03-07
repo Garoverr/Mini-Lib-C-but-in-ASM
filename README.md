@@ -209,3 +209,6 @@ Unlike memcpy, memmove is safe to use when the source and destination memory are
 ![MEMSET](https://progress-bar.dev/100/?title=memset&color=0F2300)
 
 ![MEMMOVE](https://progress-bar.dev/0/?title=memmove&color=000000)
+
+
+Take a look at : [https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf]
