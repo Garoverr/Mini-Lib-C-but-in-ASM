@@ -20,9 +20,8 @@ There was 12 mandatory funcs to do :
 <details>
 <summary>strcmp ?</summary>
 <br>
-#include <string.h>
-       int strcmp(const char *s1, const char *s2);
-
+int strcmp(const char *s1, const char *s2);
+<br>
 The  strcmp()  function compares the two strings s1 and s2.
 strcmp() returns an integer indicating the result of the comparison, as
        follows:
