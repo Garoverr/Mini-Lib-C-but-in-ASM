@@ -17,6 +17,11 @@ There was 12 mandatory funcs to do :
 - memset
 - memmove
 
+## How to Use
+- clone the repository
+- "make bin" with the provided makefile
+- Look at the **main.c**, change the function to call.
+
 
 ## Functions Description (C):
 
