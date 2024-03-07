@@ -160,7 +160,7 @@ The parameters are as follows:
 <details>
 <summary>memmove ?</summary>
 <br>
-            • void *memmove(void *dest, const void *src, size_t n);
+            void *memmove(void *dest, const void *src, size_t n);
 <br>
 The memmove() function copies n bytes from the source memory area (src) to the destination memory area (dest). It handles overlapping memory regions correctly, ensuring that the data is copied accurately regardless of the potential overlap.
 
